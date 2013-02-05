@@ -1,7 +1,7 @@
 # For Emacs: -*- mode:cperl; mode:folding -*-
 
 package Lingua::ITA::Numbers;
-# ABSTRACT: Lingua::ITA::Numbers converts arbitrary numbers into human-oriented Italian text. The interface is sligtly different from that defined for Lingua::EN::Numbers, for one it can be used in a procedural way, just like Lingua::FR::Numbers, importing the number_to_it function.
+# ABSTRACT: Number 2 Word conversion in ITA.
 
 # {{{ use block
 
@@ -24,8 +24,7 @@ use Perl6::Export::Attrs;
 # }}}
 # {{{ variables declaration
 
-my($ver)      = ('$Rev: 440 $' =~ m{(\d+)}xms);
-our $VERSION = $ver / 10_000;
+our $VERSION = 0.0577;
 
 our %SIGN_NAMES           = ('-' => 'meno',
                              '+'  => '');
@@ -336,7 +335,7 @@ Lingua::ITA::Numbers - Converts numeric values into their Italian string equival
 
 =head1 VERSION
 
-version 0.044
+version 0.0577
 
 =head1 SYNOPSIS
 
@@ -359,6 +358,8 @@ version 0.044
 
 
 =head1 DESCRIPTION
+
+Number 2 Word conversion in ITA.
 
 Lingua::ITA::Numbers converts arbitrary numbers into human-oriented
 Italian text. The interface is sligtly different from that defined

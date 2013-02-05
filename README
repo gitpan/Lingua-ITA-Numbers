@@ -1,11 +1,11 @@
 
 
 This archive contains the distribution Lingua-ITA-Numbers,
-version 0.044:
+version 0.0577:
 
-  Lingua::ITA::Numbers converts arbitrary numbers into human-oriented Italian text. The interface is sligtly different from that defined for Lingua::EN::Numbers, for one it can be used in a procedural way, just like Lingua::FR::Numbers, importing the number_to_it function.
+  Number 2 Word conversion in ITA.
 
-This software is copyright (c) 2012 by Leo "TheHobbit" Cacciari.
+This software is copyright (c) 2013 by Leo "TheHobbit" Cacciari.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

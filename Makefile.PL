@@ -9,7 +9,7 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "Lingua::ITA::Numbers converts arbitrary numbers into human-oriented Italian text. The interface is sligtly different from that defined for Lingua::EN::Numbers, for one it can be used in a procedural way, just like Lingua::FR::Numbers, importing the number_to_it function.",
+  "ABSTRACT" => "Number 2 Word conversion in ITA.",
   "AUTHOR" => "Leo \"TheHobbit\" Cacciari <hobbit\@cpan.org>",
   "BUILD_REQUIRES" => {
     "Test::More" => 0,
@@ -30,7 +30,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.044",
+  "VERSION" => "0.0577",
   "test" => {
     "TESTS" => "t/*.t"
   }

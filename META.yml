@@ -1,5 +1,5 @@
 ---
-abstract: 'Lingua::ITA::Numbers converts arbitrary numbers into human-oriented Italian text. The interface is sligtly different from that defined for Lingua::EN::Numbers, for one it can be used in a procedural way, just like Lingua::FR::Numbers, importing the number_to_it function.'
+abstract: 'Number 2 Word conversion in ITA.'
 author:
   - "Leo \"TheHobbit\" Cacciari <hobbit@cpan.org>"
 build_requires:
@@ -21,4 +21,4 @@ requires:
   overload: 0
   strict: 0
   warnings: 0
-version: 0.044
+version: 0.0577
